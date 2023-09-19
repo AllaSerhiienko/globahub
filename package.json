@@ -1,0 +1,15 @@
+{
+  "name": "globahub",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel --open",
+    "build": "parcel build --public-url=/dist/",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "homepage": "https://AllaSerhiienko.github.io/globahub-landing",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "gh-pages": "^6.0.0",
+    "parcel": "^2.9.3"
+  }
+}
